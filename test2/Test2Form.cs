@@ -1,4 +1,5 @@
-﻿using System;
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,6 +20,7 @@ namespace test2
 
         private void Test2Form_Load(object sender, EventArgs e)
         {
+            //adding test comment
             try
             {
                 //test
