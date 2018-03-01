@@ -16,5 +16,17 @@ namespace test2
         {
             InitializeComponent();
         }
+
+        private void Test2Form_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                //test
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
     }
 }
